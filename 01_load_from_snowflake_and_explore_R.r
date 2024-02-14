@@ -20,11 +20,6 @@ table <- "abt_loan_data"
 
 # COMMAND ----------
 
-# Unity Catalog not enabled for this cluster
-name_of_table <- "temp_abt.temp_schema.abt_loan_data"
-
-# COMMAND ----------
-
 # DID NOT WORK: Use spark to load a Dataframe from the specified table
 
 # sc <- spark_connect(method = "databricks")
